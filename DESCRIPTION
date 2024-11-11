@@ -1,0 +1,13 @@
+Package: CUSUMrelsurv
+Type: Package
+Title: CUSUM charts for excess hazard (relative survival) models
+Version: 1.0
+Date: 2024-10-29
+Author: Jimmy Tran, Jan Terje Kvaløy
+Maintainer: <jimmy.tran@uis.no>
+Description: Contains functions to calculate different quantities needed for CUSUM charts for excess hazard models. 
+License: What license is it under?
+Imports: Rcpp (>= 1.0.13), foreach, doParallel, doRNG, parallel, relsurv
+LinkingTo: Rcpp, RcppArmadillo
+RoxygenNote: 7.3.1
+Encoding: UTF-8
